@@ -1,0 +1,7 @@
+[Model]
+
+Meshes=arrowmesh.txt
+
+Materials=_Down Tap Note 32nd materials.txt
+
+Bones=arrowmesh.txt
