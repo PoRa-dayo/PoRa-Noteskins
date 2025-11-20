@@ -1,3 +1,4 @@
 [Sprite]
-Texture=Down Hold Explosion.png
+Texture=Down Hold Explosion
 BaseRotationZDegrees=180
+
