@@ -8,7 +8,7 @@ This archive does not contain the noteskins from the Noteskin Workshops I've rel
 # Description
 An archive for all the noteskins I've released.
 
-## Celable (NotITG/ITGMania)
+## Celable (NotITG/ITGMania/Outfox)
 It's the "Scalable" noteskin that uses the gradients of the original "Cel" noteskin for its shell, combined with some HD sprites taken from [HURG's Cel Noteskin Workshop](https://github.com/HURG-IIDX/Noteskin-Workshop-Cel-and-Metal).
 ![celable](https://github.com/user-attachments/assets/9fe8c05b-2502-4b22-a3b6-c08408882316)
 
