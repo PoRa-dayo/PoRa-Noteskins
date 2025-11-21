@@ -14,7 +14,7 @@
 		NoneCommand="stoptweening;zoom,0.85;linear,0.12;zoom,1"
 	/>
     <Sprite
-		Texture="down hold explosion (res 64x64).png"
+		Texture="_Down Tap Flash (res 64x64).png"
         BaseRotationZDegrees="180"
         Frame0000="0"
         Delay0000="1"
