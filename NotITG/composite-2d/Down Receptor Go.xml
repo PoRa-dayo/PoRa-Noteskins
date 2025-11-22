@@ -4,14 +4,12 @@
         Frame0000="0"
         Delay0000="1"
 		InitCommand=""
-        NoneCommand="stoptweening;zoom,0.85;linear,0.12;zoom,1"
 	/>
 	<Sprite
 		Texture="_Down Tap Receptor (res 64x64).png"
         Frame0000="0"
         Delay0000="1"
 		InitCommand="EffectClock,beat;blend,add;diffuseramp;effectcolor1,1,1,1,0;effectcolor2,1,1,1,1;effectperiod,0.5;EffectDelay,0.5;EffectOffset,0.05"
-		NoneCommand="stoptweening;zoom,0.85;linear,0.12;zoom,1"
 	/>
     <Sprite
 		Texture="_Down Tap Flash (res 64x64).png"
@@ -20,6 +18,5 @@
 		InitCommand="diffusealpha,0;blend,add"
 		PressCommand="finishtweening;zoom,1.2;decelerate,0.2;rotationz,0;zoom,1;diffusealpha,0.8"
         LiftCommand="finishtweening;accelerate,0.12;zoom,1;diffusealpha,0;zoom,3"
-        NoneCommand="stoptweening;zoom,0.85;linear,0.12;zoom,1"
 	/>
 </children></ActorFrame>
