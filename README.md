@@ -9,7 +9,7 @@ This archive does not contain the noteskins from the Noteskin Workshops I've rel
 An archive for all the noteskins I've released.
 
 ## Celable (NotITG/ITGMania/Outfox)
-*Supports lifts*
+*[Supports lifts]*
 It's the "Scalable" noteskin that uses the gradients of the original "Cel" noteskin included with OpenITG/NotITG's download for its shell, combined with some HD sprites taken from [HURG's Cel Noteskin Workshop](https://github.com/HURG-IIDX/Noteskin-Workshop-Cel-and-Metal).
 ![celable](https://github.com/user-attachments/assets/db3915d0-d293-4133-93c5-df1b1a046d2d)
 
@@ -19,7 +19,7 @@ It's the "Scalable" noteskin that uses the gradients of the original "Cel" notes
 A direct 2D port of the Composite 4k noteskin by [Haley Halcyon](https://2gd4.me/otoge/noteskin/).
 
 ## Composite-3d (NotITG/ITGMania/Outfox)
-*Supports lifts*
+*[Supports lifts]*
 The 3D version of the Composite 4k noteskin.
 ![composite](https://github.com/user-attachments/assets/d373a544-5914-4b65-8b67-a3544e506ef6)
 
