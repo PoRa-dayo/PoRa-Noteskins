@@ -16,6 +16,10 @@ It's the "Scalable" noteskin that uses the gradients of the original "Cel" notes
 
 *The tap notes, mines and lifts of Celable have an alternate shell (originated from [Jousway's Cel-2D](https://zettbou.co.uk/index.html)) that can be activated by changing the filename of the "(RENAME ME TO ACTIVATE)" textures to the corresponding correct filename. For example, to activate the alternate tap note shell, you can rename "Tap Note parts (mipmaps).png" to something else, then rename "Tap Note parts ALT (RENAME ME TO ACTIVATE).png" to "Tap Note parts (mipmaps).png".*
 
+*Below is a preview with the alternate shell of tap notes and mines:*
+![celable_alt](https://github.com/user-attachments/assets/b02b24ff-156e-40a1-90e4-5c5dd8b9e1d5)
+
+
 
 ## Composite-2d (NotITG)
 A direct 2D port of the Composite 4k noteskin by [Haley Halcyon](https://2gd4.me/otoge/noteskin/).
