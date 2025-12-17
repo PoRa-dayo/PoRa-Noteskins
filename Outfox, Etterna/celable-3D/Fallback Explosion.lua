@@ -10,7 +10,7 @@
 local DimW1 = "Dim W1"
 local BrightW1 = "Bright W1"
 local TW
-if TimingWindow then
+if ProductFamily() == "OutFox" then
     if GAMESTATE:Env()["SmartTimings"] then
         TW = TimingWindow[GAMESTATE:Env()["SmartTimings"]]().Name
     else
@@ -21,7 +21,7 @@ if TimingWindow then
         BrightW1 = "Dim W1"
     end
 end
-if GAMESTATE and GAMESTATE.GetEtternaVersion then
+if ProductFamily() == "Etterna" then
 --otherwise if the game is Etterna then just disable Bright W1
     BrightW1 = "Dim W1"
 end
