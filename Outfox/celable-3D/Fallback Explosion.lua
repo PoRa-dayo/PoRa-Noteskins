@@ -6,17 +6,23 @@
 --Oh and if you wonder about the "Button" in the "NOTESKIN:LoadActor( )" it means that it will check for that direction.
 --So you dont have to do "Down" or "Up" or "Left" etc for every direction which will save space ;)
 
---swap Dim W1 and Bright W1 when FAPlus Timing Window is detected
+--check if TimingWindow exists (it does in Outfox), if it does, swap Dim W1 and Bright W1 when FAPlus Timing Window is detected
 local DimW1 = "Dim W1"
 local BrightW1 = "Bright W1"
 local TW
-if GAMESTATE:Env()["SmartTimings"] then
-    TW = TimingWindow[GAMESTATE:Env()["SmartTimings"]]().Name
-else
-    TW = LoadModule("Options.ReturnCurrentTiming.lua")().Name
+if TimingWindow then
+    if GAMESTATE:Env()["SmartTimings"] then
+        TW = TimingWindow[GAMESTATE:Env()["SmartTimings"]]().Name
+    else
+        TW = LoadModule("Options.ReturnCurrentTiming.lua")().Name
+    end
+    if TW == "FAPlus" then
+        DimW1 = "Bright W1"
+        BrightW1 = "Dim W1"
+    end
 end
-if TW == "FAPlus" then
-    DimW1 = "Bright W1"
+if GAMESTATE and GAMESTATE.GetEtternaVersion then
+--otherwise if the game is Etterna then just disable Bright W1
     BrightW1 = "Dim W1"
 end
 

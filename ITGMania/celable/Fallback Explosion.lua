@@ -5,6 +5,28 @@
 --The NOTESKIN:LoadActor() just tells us the name of the image the Actor redirects on.
 --Oh and if you wonder about the "Button" in the "NOTESKIN:LoadActor( )" it means that it will check for that direction.
 --So you dont have to do "Down" or "Up" or "Left" etc for every direction which will save space ;)
+
+--check if TimingWindow exists (it does in Outfox), if it does, swap Dim W1 and Bright W1 when FAPlus Timing Window is detected
+local DimW1 = "Dim W1"
+local BrightW1 = "Bright W1"
+local TW
+if TimingWindow then
+    if GAMESTATE:Env()["SmartTimings"] then
+        TW = TimingWindow[GAMESTATE:Env()["SmartTimings"]]().Name
+    else
+        TW = LoadModule("Options.ReturnCurrentTiming.lua")().Name
+    end
+    if TW == "FAPlus" then
+        DimW1 = "Bright W1"
+        BrightW1 = "Dim W1"
+    end
+end
+if GAMESTATE and GAMESTATE.GetEtternaVersion then
+--otherwise if the game is Etterna then just disable Bright W1
+    BrightW1 = "Dim W1"
+end
+
+
 local t = Def.ActorFrame {
 	--Hold Explosion Commands
 	NOTESKIN:LoadActor( Var "Button", "Hold Explosion" ) .. {
@@ -31,7 +53,7 @@ local t = Def.ActorFrame {
     --We use this for Seperate Explosions for every Judgement
 	Def.ActorFrame {
 		--W1 aka Marvelous Dim Explosion Commands
-		NOTESKIN:LoadActor( Var "Button", "Tap Explosion Dim W1" ) .. {
+		NOTESKIN:LoadActor( Var "Button", "Tap Explosion " .. DimW1 ) .. {
 			InitCommand=function(self)
 				self:diffusealpha(0)
 			end;
@@ -40,24 +62,31 @@ local t = Def.ActorFrame {
 				self:finishtweening()
 			end;
 			BrightCommand=function(self)
-				self:visible(false)
+				self:visible(true)
 			end;
 			DimCommand=function(self)
 				self:visible(true)
 			end;
 		};
 		--W1 aka Marvelous Bright Explosion Commands
-		NOTESKIN:LoadActor( Var "Button", "Tap Explosion Bright W1" ) .. {
+		NOTESKIN:LoadActor( Var "Button", "Tap Explosion " .. BrightW1 ) .. {
 			InitCommand=function(self)
 				self:diffusealpha(0)
 			end;
 			W1Command=function(self)
 				self:diffusealpha(0)
 			end;
+            ProW1Command=NOTESKIN:GetMetricA("GhostArrowBright", "W1Command");
+            ProW2Command=NOTESKIN:GetMetricA("GhostArrowBright", "W1Command");
+            ProW3Command=NOTESKIN:GetMetricA("GhostArrowBright", "W1Command");
+            ProW4Command=NOTESKIN:GetMetricA("GhostArrowBright", "W1Command");
+            ProW5Command=NOTESKIN:GetMetricA("GhostArrowBright", "W1Command");
 			JudgmentCommand=function(self)
 				self:finishtweening()
 			end;
-			BrightCommand=NOTESKIN:GetMetricA("GhostArrowBright", "W1Command");
+			BrightCommand=function(self)
+				self:visible(true)
+			end;
 			DimCommand=function(self)
 				self:visible(true)
 			end;
