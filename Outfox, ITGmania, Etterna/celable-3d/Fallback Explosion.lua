@@ -6,10 +6,13 @@
 --Oh and if you wonder about the "Button" in the "NOTESKIN:LoadActor( )" it means that it will check for that direction.
 --So you dont have to do "Down" or "Up" or "Left" etc for every direction which will save space ;)
 
---check if TimingWindow exists (it does in Outfox), if it does, swap Dim W1 and Bright W1 when FAPlus Timing Window is detected
 local DimW1 = "Dim W1"
 local BrightW1 = "Bright W1"
 local TW
+local BrightFunc = function(self)
+    self:visible(true)
+end;
+--if the game is Outfox, swap Dim W1 and Bright W1 when FAPlus Timing Window is detected
 if ProductFamily() == "OutFox" then
     if GAMESTATE:Env()["SmartTimings"] then
         TW = TimingWindow[GAMESTATE:Env()["SmartTimings"]]().Name
@@ -20,10 +23,14 @@ if ProductFamily() == "OutFox" then
         DimW1 = "Bright W1"
         BrightW1 = "Dim W1"
     end
-end
-if ProductFamily() == "Etterna" then
---otherwise if the game is Etterna then just disable Bright W1
-    BrightW1 = "Dim W1"
+else
+    --if the game is ITGmania, make the Bright command at Bright W1 call Bright W1. Outfox doesn't use Bright for White Fantastic, instead they use ProW1-W5
+    if ProductFamily() == "ITGmania" then
+        BrightFunc = NOTESKIN:GetMetricA("GhostArrowBright", "W1Command");
+    else
+        --if the game is not Outfox or ITGmania just disable Bright W1 (White Fantastic)
+        BrightW1 = "Dim W1"
+    end
 end
 
 
@@ -58,6 +65,7 @@ local t = Def.ActorFrame {
 				self:diffusealpha(0)
 			end;
 			W1Command=NOTESKIN:GetMetricA("GhostArrowDim", "W1Command");
+			HeldCommand=NOTESKIN:GetMetricA("GhostArrowDim", "HeldCommand");
 			JudgmentCommand=function(self)
 				self:finishtweening()
 			end;
@@ -84,9 +92,7 @@ local t = Def.ActorFrame {
 			JudgmentCommand=function(self)
 				self:finishtweening()
 			end;
-			BrightCommand=function(self)
-				self:visible(true)
-			end;
+			BrightCommand=BrightFunc;
 			DimCommand=function(self)
 				self:visible(true)
 			end;
@@ -99,7 +105,6 @@ local t = Def.ActorFrame {
 				self:diffusealpha(0)
 			end;
 			W2Command=NOTESKIN:GetMetricA("GhostArrowDim", "W1Command");
-			HeldCommand=NOTESKIN:GetMetricA("GhostArrowDim", "HeldCommand");
 			JudgmentCommand=function(self)
 				self:finishtweening()
 			end;
@@ -116,7 +121,6 @@ local t = Def.ActorFrame {
 				self:diffusealpha(0)
 			end;
 			W2Command=NOTESKIN:GetMetricA("GhostArrowBright", "W1Command");
-			HeldCommand=NOTESKIN:GetMetricA("GhostArrowBright", "HeldCommand");
 			JudgmentCommand=function(self)
 				self:finishtweening()
 			end;
