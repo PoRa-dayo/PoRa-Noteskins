@@ -1,5 +1,5 @@
 # Noteskin workshop links
-This archive does not contain the noteskins from the Noteskin Workshops I've released. You can check them in their respective links.
+This archive does not contain the noteskins from the Noteskin Workshops I've released. Most of these are 3D ports of existing noteskins. You can check them in their respective links.
 
 (NotITG/Outfox) [Link to ENCHANTMENT (3D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/NotITG-Enchantment-Noteskin-Workshop)
 
