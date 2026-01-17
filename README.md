@@ -10,7 +10,7 @@ This archive does not contain the noteskins from the Noteskin Workshops I've rel
 (NotITG) [Link to DANCEGROOVE (2D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/NotITG-DanceGroove-2D-Noteskin-Workshop)
 
 # Description
-An archive for all the noteskins I've released. Most of these are 3D ports of existing noteskins.
+An archive for all the noteskins I've released (outside of noteskin workshops). Most of these are 3D ports of existing noteskins.
 
 ## Celable (NotITG/ITGmania/Outfox/Etterna)
 *[Supports lifts]*
