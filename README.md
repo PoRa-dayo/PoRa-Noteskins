@@ -29,16 +29,17 @@ It's the "Scalable" noteskin that uses the gradients of the original "Cel" notes
 
 
 ## Combination-complete (NotITG)
-A more complete version of the "Combination" noteskin that comes with NotITG by default. It's a joke noteskin that combines elements from a bunch of different rhythm games.
-4ths: Taiko don notes
-8ths: PIU blue arrows
-12ths, 24ths, 48ths: Chunithm air-action notes
-16ths: Rock Band green notes
-32nds: Maimai yellow tap notes
-64ths: Pop'n gray notes
-Mines: PIU Pro 2 mines
-Holds: SDVX lasers
+A more complete version of the "Combination" noteskin that comes with NotITG by default. It's a joke noteskin that combines elements from a bunch of different rhythm games.\
+4ths: Taiko don notes\
+8ths: PIU blue arrows\
+12ths, 24ths, 48ths: Chunithm air-action notes\
+16ths: Rock Band green notes\
+32nds: Maimai yellow tap notes\
+64ths: Pop'n gray notes\
+Mines: PIU Pro 2 mines\
+Holds: SDVX lasers\
 Rolls: Groove Coaster beat notes
+![combination](https://github.com/user-attachments/assets/019d3d59-304b-4dea-a11b-4c3fe53ca31a)
 
 
 
