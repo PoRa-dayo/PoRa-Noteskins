@@ -3,14 +3,14 @@ This archive does not contain the noteskins from the Noteskin Workshops I've rel
 
 (NotITG/Outfox/Etterna) [Link to ENCHANTMENT (3D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/NotITG-Enchantment-Noteskin-Workshop)
 
-(NotITG/Outfox/Etterna) [Link to ENCHANTMENT (2D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/NotITG-Enchantment-2D-Noteskin-Workshop)
+(NotITG) [Link to ENCHANTMENT (2D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/NotITG-Enchantment-2D-Noteskin-Workshop)
 
 (NotITG/Outfox/ITGmania/Etterna) [Link to DANCEGROOVE (3D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/DanceGroove-3D-Noteskin-Workshop)
 
-(NotITG/Outfox/ITGmania/Etterna) [Link to DANCEGROOVE (2D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/NotITG-DanceGroove-2D-Noteskin-Workshop)
+(NotITG) [Link to DANCEGROOVE (2D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/NotITG-DanceGroove-2D-Noteskin-Workshop)
 
 # Description
-An archive for all the noteskins I've released.
+An archive for all the noteskins I've released (outside of noteskin workshops). Most of these are 3D ports of existing noteskins.
 
 ## Celable (NotITG/ITGmania/Outfox/Etterna)
 *[Supports lifts]*
