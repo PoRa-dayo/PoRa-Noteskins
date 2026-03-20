@@ -4,15 +4,8 @@
 
 local t = Def.ActorFrame {
 	Def.Sprite {
-		Texture=NOTESKIN:GetPath( '_down', 'Receptor Go' );
-		Frame0000=0;
-		Delay0000=1;
-		Frame0001=1;
-		Delay0001=1;
-		Frame0002=2;
-		Delay0002=1;
-		Frame0003=3;
-		Delay0003=1;
+		Texture=NOTESKIN:GetPath( '_down', 'Receptor tex' );
+		Frames = Sprite.LinearFrames( 64, 2 );
 		InitCommand=function(self)
 			self:effectclock("beat"):diffuseramp():effectcolor1(0.1,0.1,0.1,1):effectcolor2(1,1,1,1):effectperiod(0.5):effecttiming(0.25,0.50,0,0.25):effectoffset(-0.25)
 		end;
@@ -26,17 +19,8 @@ local t = Def.ActorFrame {
 		W1Command=NOTESKIN:GetMetricA("ReceptorArrow", "W1Command");
 	};
 	Def.Sprite {
-		Texture=NOTESKIN:GetPath( '_down', 'Receptor Go' );
-		Frame0000=0;
-		Delay0000=0.25;
-		Frame0001=1;
-		Delay0001=1;
-		Frame0002=2;
-		Delay0002=1;
-		Frame0003=3;
-		Delay0003=1;
-		Frame0004=0;
-		Delay0004=0,75;
+		Texture=NOTESKIN:GetPath( '_down', 'Receptor tex' );
+		Frames = Sprite.LinearFrames( 64, 2 );
 		InitCommand=function(self)
 			self:blend('BlendMode_Add'):diffusealpha(0)
 		end;

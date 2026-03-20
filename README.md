@@ -1,7 +1,7 @@
 # Noteskin workshop links
 This archive does not contain the noteskins from the Noteskin Workshops I've released. Most of these are 3D ports of existing noteskins. You can check them in their respective links.
 
-(NotITG/Outfox/Etterna) [Link to ENCHANTMENT (3D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/NotITG-Enchantment-Noteskin-Workshop)
+(NotITG/Outfox/ITGmania/Etterna) [Link to ENCHANTMENT (3D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/NotITG-Enchantment-Noteskin-Workshop)
 
 (NotITG) [Link to ENCHANTMENT (2D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/NotITG-Enchantment-2D-Noteskin-Workshop)
 
@@ -60,8 +60,8 @@ It's the "Cyber" noteskin but with a contrasting border to allow more readabilit
 ## Dividebyzero-half (NotITG)
 One-sided version of the custom DivideByZero noteskin made for NotITG by leppy. The original 3D+ (two-sided) version can be seen [here](https://www.youtube.com/watch?v=v9JmsQXlJ5w). I only sawed the arrow and mine model in half and made no further changes, so they will still be a bit visible at the back.
 
-## enchantment-3d (ITGmania)
-A 3D version of the original Enchantment noteskin (a noteskin that's bundled with ITGMania's download). I did not port the entire Enchantment workshop for ITGMania, only the default variant, so here it is.
+## enchantment-original-3d (ITGmania)
+A 3D version of the original Enchantment noteskin (a noteskin that's bundled with ITGmania's download).
 
-## enchantment-3d+ (ITGmania)
-A two-sided version of "enchantment-3d", for the sake of it looking good with the Twirl mod.
+## enchantment-original-3d+ (ITGmania)
+A two-sided version of "enchantment-original-3d", for the sake of it looking good with the Twirl mod.
