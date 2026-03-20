@@ -61,7 +61,7 @@ It's the "Cyber" noteskin but with a contrasting border to allow more readabilit
 One-sided version of the custom DivideByZero noteskin made for NotITG by leppy. The original 3D+ (two-sided) version can be seen [here](https://www.youtube.com/watch?v=v9JmsQXlJ5w). I only sawed the arrow and mine model in half and made no further changes, so they will still be a bit visible at the back.
 
 ## enchantment-original-3d (ITGmania)
-A 3D version of the original Enchantment noteskin (a noteskin that's bundled with ITGmania's download). It's a bit different from the version from the workshop.
+A 3D version of the original Enchantment noteskin (a noteskin that's bundled with ITGmania's download). It's a bit different from the version from the workshop. This one is compatible even with Fast Note Rendering on and can be used in the original Stepmania 5.0.
 
 ## enchantment-original-3d+ (ITGmania)
 A two-sided version of "enchantment-original-3d", for the sake of it looking good with the Twirl mod.
