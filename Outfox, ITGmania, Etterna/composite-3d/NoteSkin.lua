@@ -6,8 +6,11 @@ ret.RedirTable =
 	Down = "Down",
 	Left = "Left",
 	Right = "Right",
-	UpLeft = "Up",
+    DownLeft = "Left",
+	UpLeft = "Down",
 	UpRight = "Up",
+    DownRight = "Right",
+    Center = "Center",
 };
 
 local OldRedir = ret.Redir;
@@ -38,8 +41,24 @@ function ret.Load()
 	-- it.  The "Hold Explosion" part should not be rotated.
 	if Var "Element" == "Explosion" or
 	   Var "Element" == "Roll Explosion" then
-		t.BaseRotationZ = nil;
+        if Var "Button" == "Center" then
+            t.BaseRotationZ = 45;
+        else
+            t.BaseRotationZ = nil;
+        end
 	end
+    
+    if Var "Element" == "Receptor" or Var "Element" == "Ready Receptor" then
+        if Var "Button" == "DownLeft" then
+            t.BaseRotationZ = -45;
+        end
+        if Var "Button" == "UpLeft" then
+            t.BaseRotationZ = 135;
+        end
+        if Var "Button" == "UpRight" or Var "Button" == "DownRight" then
+            t.BaseRotationZ = 45;
+        end
+    end
 	return t;
 end
 
@@ -63,8 +82,11 @@ ret.Rotate =
 	Down = 0,
 	Left = 90,
 	Right = -90,
-	UpLeft = -45,
-	UpRight = 45,
+	UpLeft = 135,
+    UpRight = -135,
+	DownLeft = 45,
+    DownRight = -45,
+    Center = 0
 };
 
 ret.Blank =
