@@ -301,7 +301,7 @@ Materials: 5
 0.000000 0.000000 0.000000 1.000000
 0.000000
 1.000000
-"textures/pixels.png"
+"textures/pixels_center.png"
 ""
 "glow"
 0.000000 0.000000 0.000000 1.000000
