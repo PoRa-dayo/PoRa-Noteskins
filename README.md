@@ -1,3 +1,5 @@
+*NOTE: You can use these for anything you want, with or without credit, so don't bother asking me for permission. Thank you and have fun.*
+
 # Noteskin workshop links
 This archive does not contain the noteskins from the Noteskin Workshops I've released. Most of these are 3D ports of existing noteskins. You can check them in their respective links.
 
