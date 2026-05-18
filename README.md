@@ -9,23 +9,10 @@ This archive does not contain the noteskins from the Noteskin Workshops I've rel
 
 (NotITG) [Link to DANCEGROOVE (2D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/NotITG-DanceGroove-2D-Noteskin-Workshop)
 
+(NotITG/Outfox/ITGmania/Etterna) [Link to CELABLE AND METALABLE (3D) NOTESKIN WORKSHOP](https://github.com/PoRa-dayo/Celable-Metalable-3D-Noteskin-Workshop)
+
 # Description
 An archive for all the noteskins I've released (outside of noteskin workshops). Most of these are 3D ports of existing noteskins.
-
-## Celable (NotITG/ITGmania/Outfox/Etterna)
-*[Supports lifts]*
-It's the "Scalable" noteskin that uses the gradients of the original "Cel" noteskin included with OpenITG/NotITG's download for its shell, combined with some HD sprites taken from [HURG's Cel Noteskin Workshop](https://github.com/HURG-IIDX/Noteskin-Workshop-Cel-and-Metal).
-![celable](https://github.com/user-attachments/assets/db3915d0-d293-4133-93c5-df1b1a046d2d)
-
-
-*The tap notes, mines and lifts of Celable have an alternate shell (originated from the "cel2d" noteskin) that can be activated by changing the filename of the "(RENAME ME TO ACTIVATE)" textures to the corresponding correct filename. For example, to activate the alternate tap note shell, you can rename "Tap Note parts (mipmaps).png" to something else, then rename "Tap Note parts ALT (RENAME ME TO ACTIVATE).png" to "Tap Note parts (mipmaps).png".*
-
-<img width="700" height="276" alt="image" src="https://github.com/user-attachments/assets/a7946436-626b-4b19-9e4c-f4903a810e8e" />
-
-
-*Below is a preview with the alternate shell of tap notes and mines:*
-![celable_alt](https://github.com/user-attachments/assets/b02b24ff-156e-40a1-90e4-5c5dd8b9e1d5)
-
 
 
 ## Combination-complete (NotITG)
