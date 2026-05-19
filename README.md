@@ -24,6 +24,7 @@ After selecting a song, press the START button again to enter the options menu, 
 
 
 ## Combination-complete (NotITG)
+*[Supports lifts]*
 A more complete version of the "Combination" noteskin that comes with NotITG by default. It's a joke noteskin that combines elements from a bunch of different rhythm games.\
 4ths: Taiko don notes\
 8ths: PIU blue arrows\
@@ -33,7 +34,8 @@ A more complete version of the "Combination" noteskin that comes with NotITG by 
 64ths: Pop'n gray notes\
 Mines: PIU Pro 2 mines\
 Holds: SDVX lasers\
-Rolls: Groove Coaster beat notes
+Rolls: Groove Coaster beat notes\
+Lifts: VOEZ flick notes
 
 <img width="600" height="450" alt="combination" src="https://github.com/user-attachments/assets/019d3d59-304b-4dea-a11b-4c3fe53ca31a" />
 
