@@ -23,7 +23,7 @@ Put the folders with the noteskins' name inside the NoteSkins/dance folder of yo
 After selecting a song, press the START button again to enter the options menu, where you can select noteskins.
 
 
-## Combination-complete (NotITG)
+## Combination-complete (NotITG/ITGmania/Outfox/Etterna)
 *[Supports lifts]*
 A more complete version of the "Combination" noteskin that comes with NotITG by default. It's a joke noteskin that combines elements from a bunch of different rhythm games.\
 4ths: Taiko don notes\
